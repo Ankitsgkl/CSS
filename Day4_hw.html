@@ -6,17 +6,17 @@
     <title>contact</title>
     <style>
         .headerbar {
-            background-color: rgb(255, 204, 0);
             color: rgb(83, 10, 99);
             text-align: center;
             padding: 10px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 30px;
             font-weight: bold;
-            border: 2px solid black;
+            position: fixed;
+            top: 10px;
+            left: 615px;
         }
         .headerbar.sticky {
-            position: -webkit-sticky;
             position: sticky;
         }
         .contentbox {
@@ -55,8 +55,8 @@
         }
         .contactinfo {
             position: absolute;
-            top: 5px;
-            right: 5px;
+            top: 11px;
+            right: 14px;
             height: 135px;
             width: 300px;
             border: 1px solid black;
@@ -70,7 +70,7 @@
             position: absolute;
             top: 20px;
             left: 210px;
-            height: 90%;
+            height: 100%;
             border-left: 3px solid #333;
             z-index: 2;
         }
@@ -78,11 +78,10 @@
 </head>
 <body>
 
-<div class="headerbar">
+<div class="contentbox">
+    <div class="headerbar">
     <h4>Company Contact Card</h4>
 </div>
-
-<div class="contentbox">
 <p><img src="https://imgs.search.brave.com/8pp7hi7SLmHUZWORzrTdwjPeJHKW_i_8GAy2mdQxtVs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFHUWtX/OC1KaTAvMi8wLzE2/MDB3L2NhbnZhLXll/bGxvdy1hbmQtYmxh/Y2stc2ltcGxlLXBy/b2Zlc3Npb25hbC1s/aW5rZWRpbi1wcm9m/aWxlLXBpY3R1cmUt/aFU0eXp0aWRDVUUu/anBn" alt="profile pic"></p>
  <div class="contactinfo">
         <h4>Contact Details</h4>
@@ -102,6 +101,5 @@ Throughout his career, he has worked extensively with modern technologies such a
 </div>
 <div class="vertical-separator"></div>
 </div>
-
 </body>
 </html>
